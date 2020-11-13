@@ -7,8 +7,7 @@ module.exports = {
   mode: 'development',
 
   entry: {
-    react: ['react'],
-    reactDOM: ['react-dom']
+    vendor: ['react', 'react-dom', 'react-router-dom']
   },
 
   output: {

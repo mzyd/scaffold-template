@@ -52,10 +52,7 @@ module.exports = {
     }),
     //将文件自动引入到html中
     new AddAssetHtmlWebpackPlugin(
-      { filepath: require.resolve('../dll/react.js') },
-    ),
-    new AddAssetHtmlWebpackPlugin(
-      { filepath: require.resolve('../dll/reactDOM.js') },
+      { filepath: require.resolve('../dll/vendor.js') },
     ),
   ],
 
